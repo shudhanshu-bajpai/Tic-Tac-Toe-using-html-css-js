@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+        <div class="gameContainer">
+            <h1>Tic Tac Toe</h1>
+            <div id="boxContainer">
+                <div boxIndex="0" class="box" style="border-top:0 ;border-left:0";><span class="boxtext"></span></div>
+                <div boxIndex="1" class="box" style="border-top:0 ;"><span class="boxtext"></span></div>
+                <div boxIndex="2" class="box" style="border-top:0; border-right:0 ;"><span class="boxtext"></span></div>
+                <div boxIndex="3" class="box" style="border-left:0;"><span class="boxtext"></span></div>
+                <div boxIndex="4" class="box" ><span class="boxtext"></span></div>
+                <div boxIndex="5" class="box" style="border-right:0;"><span class="boxtext"></span></div>
+                <div boxIndex="6" class="box" style="border-left:0 ;border-bottom :0;"><span class="boxtext"></span></div>
+                <div boxIndex="7" class="box" style="border-bottom :0 ;"><span class="boxtext"></span></div>
+                <div boxIndex="8" class="box" style="border-bottom:0 ;border-right : 0 ;"><span class="boxtext"></span></div>
+            </div>
+        
+    <div id="gameInfo">
+        <h2 id="info"></h2>
+        <button id="resetBtn" type="reset" >Restart</button>
+         <button id="musicBtn" type="submit" onclick=toggleMusic() >Music</button>
+    </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
